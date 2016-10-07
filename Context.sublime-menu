@@ -1,0 +1,7 @@
+[
+    {
+        "id" : "find_open",
+        "caption" : "Open at Cursor",
+        "command" : "open_find_file_at_pos",
+    },
+]

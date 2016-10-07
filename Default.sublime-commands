@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "Find-Open: Open at Cursor",
+        "command": "open_find_file_at_pos",
+    },
+]
