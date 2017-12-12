@@ -6,4 +6,11 @@
             {"key": "selector", "operator": "equal", "operand": "text.find-in-files"},
         ],
     },
+    // Jumps back to the Find Results Page
+    {
+        "keys": ["super+enter"], "command": "jump_to_find_results",
+        "context": [
+            {"key": "selector", "operator": "not_equal", "operand": "text.find-in-files"},
+        ],
+    },
 ]
